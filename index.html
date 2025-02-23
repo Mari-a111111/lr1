@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хіт Парад</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .image-container {
+            text-align: left; 
+            margin-top: 20px;
+            width: 300px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            width: 300px;
+            
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Хіт Парад</h1>
+    <nav>
+        <a href="#enterprise-info">Про підприємство</a>
+        <a href="author.html">Про автора</a>
+    </nav>
+</header>
+
+<section id="songs">
+    <h2>Популярні хіти</h2>
+    <ul>
+        <li>Скрябін – Спи собі сама</li>
+        <div class="image-container">
+            <img src="data:image/jpeg;base64,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" alt="Скрябін">
+        </div>
+        
+        <li>Океан Ельзи – Без бою</li>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSouHK-IR5ux9hDdHi3lA7BckEt6gPO2_LMQvu3L1jHmpfemtEBXTJ1Bu1XPsygLwnA4sk&usqp=CAU" alt="Океан Ельзи">
+        </div>
+        
+        <li>Тіна Кароль – Україна - це ти</li>
+        <div class="image-container">
+            <img src="https://www.rbc.ua/static/ckef/img/62500941_869346776755167_8703676606219939691_n.jpg" alt="Тіна Кароль">
+        </div>
+        
+        <li>Монатік – Кожний раз</li>
+        <div class="image-container">
+            <img src="https://img.tsn.ua/cached/716/tsn-36d8529324d0d2add3490e97423bfbc5/thumbs/x/5c/d9/07aac013c26040e04d1f89390299d95c.jpeg" alt="Монатік">
+        </div>
+        
+        <li>Христина Соловій – Гамерицкий Край</li>
+        <div class="image-container">
+            <img src="https://viva.ua/storage/crop/articles/avatar_4183_max.jpg" alt="Христина Соловій">
+        </div>
+    </ul>
+</section>
+
+</body>
+</html>
